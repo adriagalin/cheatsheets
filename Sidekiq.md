@@ -1,6 +1,7 @@
 # Sidekiq
 
-**Note: If console don't load sidekiq/api, run this command in rails console `require 'sidekiq/api'`**
+**Note:**
+Sidekiq has a public API allowing access to real-time information about workers, queues and jobs. If console don't load sidekiq/api, run this command in rails console `require 'sidekiq/api'`
 
 **Get all queues**
 ```bash
